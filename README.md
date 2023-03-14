@@ -1,4 +1,4 @@
-# LiDAR simulation in 2D and 3D in Matlab
+# 2D and 3D depth sensor simulation in Matlab
 
 This is a repository for simulating depth sensor measurements without the use of Matlab toolboxes
 
@@ -19,3 +19,6 @@ Below is a picture of the 3D simulation in action:
 <img src="images/3DexampleImage.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
+
+## Notes
+vol3d is a function written and copyrighted by Joe Conti, 2004
