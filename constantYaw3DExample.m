@@ -30,7 +30,7 @@ for i = 1:100
     knownMap = updateOccupancyMap(z,knownMap,mapSize);
     hold on
     %Plot occupancy matrix
-    h = vol3d('cdata',occMap.*50,'XData',[1,size(pOccMap,2)],'YData',[1,size(pOccMap,1)],'ZData',[1,size(pOccMap,3)]);
+    h = vol3d('cdata',occMap.*50,'XData',[1,size(occMap,2)],'YData',[1,size(occMap,1)],'ZData',[1,size(occMap,3)]);
     colormap(h.parent,flipud(bone));
     xlabel('x'); ylabel('y'); zlabel('z')
     %Plot convex hull of UAV and sensor end points
