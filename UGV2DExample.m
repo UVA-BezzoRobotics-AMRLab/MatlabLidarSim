@@ -1,4 +1,5 @@
 clc; clear all; close all
+addpath("utils"); addpath("vol3d")
 %Initialize empty map
 mapSize = [100,120];
 occMap = zeros(mapSize);
