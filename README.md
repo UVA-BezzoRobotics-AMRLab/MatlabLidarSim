@@ -21,7 +21,7 @@ Below is a picture of the 3D simulation in action:
      style="float: left; margin-right: 10px;" />
 
 ## Notes
-If using this code, please cite our paper:
+If using this code, please consider citing:
 Bramblett, Lauren, Shijie Gao, and Nicola Bezzo. "Epistemic Prediction and Planning with Implicit Coordination for Multi-Robot Teams in Communication Restricted Environments." arXiv preprint arXiv:2302.10393 (2023).
 
 vol3d is a function written and copyrighted by Joe Conti, 2004
