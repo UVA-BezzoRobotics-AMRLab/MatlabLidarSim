@@ -28,7 +28,7 @@ max_v = 2; max_a = pi/4; %Max linear & angular velocity
 %Example plot with constant x,y movement and yaw
 for i = 1:100
     [z,rayPts,obsInRange,endPts] = lidarSim3D(angles3D,pos,obs,maxRange,maxRange*2,mapSize);
-    knownMap = updateOccupancyMap(z,knownMap,mapSize);
+    knownMap = updateOccupancyMap3D(z,knownMap,mapSize);
     hold on
     %Plot occupancy matrix
     h = vol3d('cdata',occMap.*50,'XData',[1,size(occMap,2)],'YData',[1,size(occMap,1)],'ZData',[1,size(occMap,3)]);
